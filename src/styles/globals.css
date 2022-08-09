@@ -5,7 +5,11 @@
 @layer base {
   html,
   body,
-  #__next {
-    @apply m-0 p-0 h-screen overflow-auto;
+  body > div:first-child,
+  div#__next,
+  div#__next > div {
+    @apply m-0 p-0 h-screen overflow-auto bg-ctp-base text-ctp-text;
   }
+
+
 }

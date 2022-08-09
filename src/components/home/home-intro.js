@@ -19,12 +19,12 @@ export default function HomeIntro() {
           <ul>
             <li>
               <Link href="/posts">
-                <a>Posts</a>
+                <a className="text-ctp-rosewater hover:underline">Posts</a>
               </Link>
             </li>
             <li>
               <Link href="/contact">
-                <a>Contact</a>
+                <a className="text-ctp-rosewater hover:underline">Contact</a>
               </Link>
             </li>
           </ul>
