@@ -16,7 +16,7 @@ export default function HomeIntro() {
           <p className="text-lg font-light text-justify">
             {`I'm Aerysh and this is my webpage. There will be a lot of things here`}
           </p>
-          <ul>
+          <ul className="list-disc list-inside">
             <li>
               <Link href="/posts">
                 <a className="text-ctp-rosewater hover:underline">Posts</a>
@@ -24,7 +24,7 @@ export default function HomeIntro() {
             </li>
             <li>
               <Link href="/contact">
-                <a className="text-ctp-rosewater hover:underline">Contact</a>
+                <a className="text-ctp-rosewater hover:underline">Contacts</a>
               </Link>
             </li>
           </ul>
