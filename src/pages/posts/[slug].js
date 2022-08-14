@@ -8,6 +8,7 @@ import Layout from '../../components/layout/layout'
 import ErrorPage from '../404'
 
 import { PostBody } from '../../components/posts/post-body'
+import MetaTags from '../../components/meta-tags'
 
 export default function ReadPost({ post }) {
   const router = useRouter()
@@ -18,6 +19,11 @@ export default function ReadPost({ post }) {
 
   return (
     <>
+      <MetaTags
+        title={post.title}
+        description={post.excerpt}
+        slug={post.slug}
+      />
       {router.isFallback ? (
         <>Loading</>
       ) : (

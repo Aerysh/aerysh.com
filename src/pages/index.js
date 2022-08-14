@@ -7,12 +7,18 @@ import HomeTrack from '../components/home/home-track'
 import RecentTrack from '../components/recent-track'
 import { loadTracks } from '../lib/load-tracks'
 import { getAllPosts } from '../lib/load-posts'
+import MetaTags from '../components/meta-tags'
 
 export default function Home({ tracks, posts }) {
   const recentTracks = tracks.recenttracks.track
 
   return (
     <>
+      <MetaTags
+        title="Home"
+        description="My personal blog where I post things that I think are interesting."
+        slug=""
+      />
       <Layout>
         <HomeIntro />
         <HomePost>

@@ -2,10 +2,16 @@ import React from 'react'
 import Link from 'next/link'
 import Layout from '../components/layout/layout'
 import Section from '../components/layout/section'
+import MetaTags from '../components/meta-tags'
 
-export default function Contact({ children }) {
+export default function Contact() {
   return (
     <>
+      <MetaTags
+        title="My Contacts"
+        description="Various ways to contact me"
+        slug="contact"
+      />
       <Layout>
         <Section>
           <header className="space-y-2">
