@@ -6,8 +6,9 @@ import RecentPost from '../components/posts/recent-post'
 import HomeTrack from '../components/home/home-track'
 import RecentTrack from '../components/recent-track'
 import { loadTracks } from '../lib/load-tracks'
+import { getAllPosts } from '../lib/load-posts'
 
-export default function Home({ tracks }) {
+export default function Home({ tracks, posts }) {
   const recentTracks = tracks.recenttracks.track
 
   return (
@@ -15,22 +16,15 @@ export default function Home({ tracks }) {
       <Layout>
         <HomeIntro />
         <HomePost>
-          <RecentPost
-            date="09 Agustus 2022"
-            title="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-            excerpt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a eleifend sapien. Cras luctus mollis eros, eget vehicula ipsum commodo ornare."
-          />
-          <RecentPost
-            date="09 Agustus 2022"
-            title="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-            excerpt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a eleifend sapien. Cras luctus mollis eros, eget vehicula ipsum commodo ornare."
-          />
-
-          <RecentPost
-            date="09 Agustus 2022"
-            title="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-            excerpt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a eleifend sapien. Cras luctus mollis eros, eget vehicula ipsum commodo ornare."
-          />
+          {posts.slice(0, 3).map((post, idx) => (
+            <RecentPost
+              key={idx}
+              date={post.date}
+              title={post.title}
+              slug={post.slug}
+              excerpt={post.excerpt}
+            />
+          ))}
         </HomePost>
         <HomeTrack>
           {recentTracks.map((track, idx) => (
@@ -51,6 +45,7 @@ export default function Home({ tracks }) {
 
 export async function getServerSideProps() {
   const tracks = await loadTracks()
+  const posts = getAllPosts(['title', 'date', 'slug', 'author', 'excerpt'])
 
-  return { props: { tracks } }
+  return { props: { tracks, posts } }
 }

@@ -8,7 +8,7 @@ export default function HomePost({ children }) {
       <header className="space-y-2">
         <h2 className="text-2xl font-semibold">Recent Posts</h2>
         <p className="text-lg font-light">
-          Lorem ipsum dolor sit amet adipiscing elit.
+          Writing that comes from random things that I often think about
         </p>
       </header>
       <section>
