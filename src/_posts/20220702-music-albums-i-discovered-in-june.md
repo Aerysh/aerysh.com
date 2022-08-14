@@ -5,14 +5,6 @@ author: 'aerysh'
 excerpt: 'I get bored easily so I try to listen to new music'
 ---
 
-# Table of contents
-
-- [Table of contents](#table-of-contents)
-  - [American Football by American Football (1999)](#american-football-by-american-football-1999)
-  - [The College Dropout by Kanye West (2004)](#the-college-dropout-by-kanye-west-2004)
-  - [My Beautiful Dark Twisted Fantasy by Kanye West (2010)](#my-beautiful-dark-twisted-fantasy-by-kanye-west-2010)
-  - [Sgt. Pepper's Lonely Hearts Club Band by The Beatles (1967)](#sgt-peppers-lonely-hearts-club-band-by-the-beatles-1967)
-
 For some time now, I've been trying to broaden my music tastes. For me, who is not very knowledgeable about music, choosing music albums or artists and also genres that I want to listen to is quite a challenge. But in the end, I managed to find it. There are no certain rules regarding the music albums I want to listen to and also I do not limit what year the music albums are released. Here are the music albums that I found to last month
 
 ## American Football by American Football (1999)

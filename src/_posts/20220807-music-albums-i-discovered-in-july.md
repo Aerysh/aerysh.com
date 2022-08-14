@@ -5,15 +5,6 @@ author: 'aerysh'
 excerpt: 'Another month another albums to listen to'
 ---
 
-# Table of contents
-
-- [Table of contents](#table-of-contents)
-  - [2001 (The Chronic II) by Dr. Dre (1999)](#2001-the-chronic-ii-by-dr-dre-1999)
-  - [Black One by Sunn O))) (2005)](#black-one-by-sunn-o-2005)
-  - [Led Zeppelin IV by Led Zeppelin (1971)](#led-zeppelin-iv-by-led-zeppelin-1971)
-  - [Chaos A.D. by Sepultura (1993)](#chaos-ad-by-sepultura-1993)
-  - [Animals by This Town Needs Guns (2009)](#animals-by-this-town-needs-guns-2009)
-
 Continuing what I did in June, in July I also did the same thing and found some interesting albums, unfortunately I didn't have much time to listen to the albums I found. Here are some of the albums I found
 
 ## 2001 (The Chronic II) by Dr. Dre (1999)
