@@ -3,7 +3,7 @@
 }
 
 .markdown p {
-  @apply my-6;
+  @apply my-6 text-justify;
 }
 
 .markdown ul,
@@ -15,6 +15,10 @@
 .markdown ul,
 .markdown ol {
   @apply list-inside;
+}
+
+.markdown li {
+  @apply my-2;
 }
 
 .markdown ol {
@@ -30,19 +34,19 @@
 }
 
 .markdown h1 {
-  @apply text-3xl mt-4 mb-4;
+  @apply text-3xl mt-4 mb-4 font-bold;
 }
 
 .markdown h2 {
-  @apply text-2xl mt-4 mb-4;
+  @apply text-2xl mt-4 mb-4 font-bold;
 }
 
 .markdown h3 {
-  @apply text-xl mt-4 mb-4;
+  @apply text-xl mt-4 mb-4 font-bold;
 }
 
 .markdown h4 {
-  @apply text-lg mt-4 mb-4;
+  @apply text-lg mt-4 mb-4 font-semibold;
 }
 
 .markdown img {
