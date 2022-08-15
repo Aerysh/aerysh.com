@@ -33,7 +33,7 @@ export default function Home({ tracks, posts }) {
           ))}
         </HomePost>
         <HomeTrack>
-          {recentTracks.map((track, idx) => (
+          {recentTracks.slice(0,1).map((track, idx) => (
             <RecentTrack
               key={idx}
               artist={track.artist['#text']}

@@ -5,15 +5,27 @@ import React from 'react'
 export default function RecentTrack({ artist, image, album, name, url }) {
   return (
     <Link href={url}>
-      <a target="_blank" rel="noreferrer" className="flex flex-col h-entry relative">
-        <div className="h-full w-full">
-          <article className="flex flex-col space-y-2 justify-center">
-            <Image src={image} alt="album cover" width={300} height={300} />
-            <p className="font-semibold">{name}</p>
-            <p className="">{album}</p>
-            <p className="text-ctp-subtext0">{artist}</p>
-          </article>
-        </div>
+      <a
+        target="_blank"
+        rel="noreferrer"
+        className="flex flex-col items-center justify-center h-entry relative">
+        <table>
+          <tr>
+            <td className="p-2">
+              <Image
+                src={image}
+                alt={`${album} cover art`}
+                width={150}
+                height={150}
+              />
+            </td>
+            <td className="p-2">
+              <h2 className="text-lg font-semibold">{name}</h2>
+              <p className="font-normal">{artist}</p>
+              <p className="font-light">{album}</p>
+            </td>
+          </tr>
+        </table>
       </a>
     </Link>
   )
