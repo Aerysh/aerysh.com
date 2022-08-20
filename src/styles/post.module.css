@@ -7,14 +7,8 @@
 }
 
 .markdown ul,
-.markdown ol,
-.markdown blockquote {
-  @apply my-3;
-}
-
-.markdown ul,
-.markdown ol {
-  @apply list-inside;
+.markdown ol{
+  @apply my-3 list-inside ml-4;
 }
 
 .markdown li {
@@ -53,4 +47,20 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.markdown table{
+  @apply w-full table-auto;
+}
+
+.markdown th, .markdown td {
+  @apply border p-2;
+}
+
+.markdown blockquote{
+  @apply relative p-4 italic border-l-4 bg-ctp-mantle border-ctp-lavender;
+}
+
+.markdown pre{
+  @apply p-4 bg-ctp-mantle;
 }
