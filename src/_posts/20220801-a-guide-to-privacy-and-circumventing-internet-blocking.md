@@ -1,8 +1,8 @@
 ---
 title: 'A Guide to Privacy and Circumventing Internet Blocking'
 date: '2022-08-01'
-author: 'aerysh'
 excerpt: 'Maintain Privacy While Circumventing Internet Blocking. Two Birds With One Stone'
+author: 'aerysh'
 ---
 
 A few days ago Kominfo implemented policy [No. 5 of 2020 on Private Scope Electronic System Operator](https://jdih.kominfo.go.id/produk_hukum/view/id/759/t/peraturan+menteri+komunikasi+dan+informatika+nomor+5+tahun+2020). with the implementation of this policy, many people are affected as a result of not being able to access websites or applications that they usually use such as PayPal, Steam, Epic Games and many others. There are many who do not support the implementation of this policy, even LBH Jakarta states that this blocking is a [form of digital authoritarianism](https://bantuanhukum.or.id/lbh-jakarta-pemblokiran-situs-internet-dan-aplikasi-oleh-kominfo-merupakan-bentuk-otoritarianisme-digital/).
@@ -31,7 +31,7 @@ However, this method is actually not recommended because this method has its own
 
 ### Recommended Providers
 | DNS Providers                                                           | Logging  | Filtering                                                                 |
-| ----------------------------------------------------------------------- | -------- | ------------------------------------------------------------------------- |
+| ----------------------------------------------------------------------- |:-------- | ------------------------------------------------------------------------- |
 | [AdGuard](https://adguard-dns.io/en/welcome.html)                       | Some     | Based on Server Choice. [More](https://github.com/AdguardTeam/AdGuardDNS) |
 | [Cloudflare](https://developers.cloudflare.com/1.1.1.1/setup/)          | Some     | Based on Server Choice                                                    |
 | [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls/) | No       | Based on Server Choice. [More](https://github.com/mullvad/dns-blocklists) |
@@ -76,11 +76,11 @@ When we use a VPN we are shifting our trust from the ISP to the VPN service prov
 When it comes to choosing a VPN service provider, my personal criteria are encryption, multiple payment options, Wireguard & OpenVPN support, external audit, no logging policy and if possible the client they provide is open source. And here are some that fit my criteria:
 
 ### Recommended Providers
-| VPN Providers                       |                Number of Countries                 |                                            External Audit                                            |             Open Source             | Payment Options                                                                                                                      | Client Selection                            |               Price               |
-|:----------------------------------- |:--------------------------------------------------:|:----------------------------------------------------------------------------------------------------:|:-----------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------ |:------------------------------------------- |:---------------------------------:|
-| [IVPN](https://www.ivpn.net/)       |    [32 Countries](https://www.ivpn.net/status/)    |                        [Yes](https://cure53.de/pentest-report_IVPN_2022.pdf)                         |   [Yes](https://github.com/ivpn)    | Bitcoin, Monero, PayPal, Credit or Debit Card, Cash, In-App (iOS & Android)                                                          | Windows, macOS, Linux, iOS, Android         | Standard $60/year - Pro $100/year |
-| [Mullvad](https://mullvad.net/en/)  |  [39 Countries](https://mullvad.net/en/servers/)   |    [Yes](https://www.assured.se/publications/Assured_Mullvad_relay_server_audit_report_2022.pdf)     |  [Yes](https://github.com/mullvad)  | Cash, Bitcoin, Bitcoin Cash, Monero, Bank Wire, Credit Card, PayPal, Swish, Giropay, Eps Transfer, Bancontact, iDEAL, and Przelewy24 | Windows, macOS, Linux, iPad/iPhone, Android |             €60/year              |
-| [ProtonVPN](https://protonvpn.com/) | [63 Countries](https://protonvpn.com/vpn-servers/) | [Yes](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf) | [Yes](https://github.com/ProtonVPN) | Credit or Debit Card, PayPal, Bitcoin, Cash, Bank Transfer                                                                           | Windows, macOS, Android, Linux              |      Free[^1] - $71.88/year       |
+| VPN Providers                       | Number of Countries                                |                                            External Audit                                            |             Open Source             | Payment Options                                                                                                                      | Client Selection                            |               Price               |
+|:----------------------------------- |:-------------------------------------------------- |:----------------------------------------------------------------------------------------------------:|:-----------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------ |:------------------------------------------- |:---------------------------------:|
+| [IVPN](https://www.ivpn.net/)       | [32 Countries](https://www.ivpn.net/status/)       |                        [Yes](https://cure53.de/pentest-report_IVPN_2022.pdf)                         |   [Yes](https://github.com/ivpn)    | Bitcoin, Monero, PayPal, Credit or Debit Card, Cash, In-App (iOS & Android)                                                          | Windows, macOS, Linux, iOS, Android         | Standard $60/year - Pro $100/year |
+| [Mullvad](https://mullvad.net/en/)  | [39 Countries](https://mullvad.net/en/servers/)    |    [Yes](https://www.assured.se/publications/Assured_Mullvad_relay_server_audit_report_2022.pdf)     |  [Yes](https://github.com/mullvad)  | Cash, Bitcoin, Bitcoin Cash, Monero, Bank Wire, Credit Card, PayPal, Swish, Giropay, Eps Transfer, Bancontact, iDEAL, and Przelewy24 | Windows, macOS, Linux, iPad/iPhone, Android |             €60/year              |
+| [ProtonVPN](https://protonvpn.com/) | [63 Countries](https://protonvpn.com/vpn-servers/) | [Yes](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf) | [Yes](https://github.com/ProtonVPN) | Credit or Debit Card, PayPal, Bitcoin, Cash, Bank Transfer                                                                           | Windows, macOS, Android, Linux              |      Free [^1] - $71.88/year       |
 
 [^1]: I'm making an exception for this case because the ProtonVPN App is Open Source and you can check for yourself whether they log your activities or not.
 
@@ -104,11 +104,11 @@ Maybe this is the last way for us to use the internet freely and the only thing 
 
 You have no idea how much it helped me when I first used a password manager you should try it. there are many password managers you can use but here are some of my recommendations
 
-| Name                                    | Open Source                                        | Local Storage | Cloud Storage | Platform                            |
-| --------------------------------------- | -------------------------------------------------- | ------------- | ------------- | ----------------------------------- |
-| [Bitwarden](https://bitwarden.com/)     | [Yes](https://github.com/bitwarden)                | Yes[^2]       | Yes           | Windows, macOS, Linux, iOS, Android |
-| [KeePassDX](https://www.keepassdx.com/) | [Yes](https://github.com/Kunzisoft/KeePassDX)      | Yes           | No            | Android                             |
-| [KeePassXC](https://keepassxc.org/)     | [Yes](https://github.com/keepassxreboot/keepassxc) | Yes           | No            | Linux, macOS, Windows               |
+| Name                                    |                    Open Source                     | Local Storage | Cloud Storage | Platform                            |
+| --------------------------------------- |:--------------------------------------------------:|:-------------:|:-------------:| ----------------------------------- |
+| [Bitwarden](https://bitwarden.com/)     |        [Yes](https://github.com/bitwarden)         |    Yes[^2]    |      Yes      | Windows, macOS, Linux, iOS, Android |
+| [KeePassDX](https://www.keepassdx.com/) |   [Yes](https://github.com/Kunzisoft/KeePassDX)    |      Yes      |      No       | Android                             |
+| [KeePassXC](https://keepassxc.org/)     | [Yes](https://github.com/keepassxreboot/keepassxc) |      Yes      |      No       | Linux, macOS, Windows               |
 
 [^2]:You can self host your own Bitwarden synchronization server for example by using [Vaultwarden](https://github.com/dani-garcia/vaultwarden).
 
@@ -116,11 +116,11 @@ You have no idea how much it helped me when I first used a password manager you 
 
 Another thing I've found very helpful is adding 2-factor authentication to the accounts I have. there are a few apps I can recommend
 
-| Name                                           | Open Source                                         | Platform |
-| ---------------------------------------------- | --------------------------------------------------- | -------- |
-| [Aegis Authenticator](https://getaegis.app/)   | [Yes](https://github.com/beemdevelopment/Aegis)     | Android  |
+| Name                                           |                     Open Source                     | Platform |
+| ---------------------------------------------- |:---------------------------------------------------:| -------- |
+| [Aegis Authenticator](https://getaegis.app/)   |   [Yes](https://github.com/beemdevelopment/Aegis)   | Android  |
 | [Raivo OTP ](https://raivo-otp.com/)           | [Yes](https://github.com/raivo-otp/ios-application) | iOS      |
-| [andOTP](https://github.com/andOTP/andOTP)[^3] | [Yes](https://github.com/andOTP/andOTP)             | Android  |
+| [andOTP](https://github.com/andOTP/andOTP)[^3] |       [Yes](https://github.com/andOTP/andOTP)       | Android  |
 
 [^3]:It's been neglected for quite some time but it's still usable, if you want to continue this project please contact the creator.
 
