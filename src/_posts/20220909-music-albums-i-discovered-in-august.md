@@ -13,7 +13,7 @@ Without further ado here are some of the music albums I listened to
 
 ## Empress Rising by Monolord (2014)
 
-![Empress Rising Cover Art](https://i.ibb.co/hX4jP1W/empress-rising.jpg)
+![Empress Rising Cover Art](https://i.ibb.co/0MbRjrv/empress-rising.jpg)
 
 This album was recommended by [Last.fm](https://last.fm). What attracted me at first was the cover art of this album which I thought was unique. After listening to it, I was a little surprised because the music in this album is very much in line with my taste. It's probably my favourite album of the month.
 
@@ -29,7 +29,7 @@ Since I had previously listened to Electric Wizard's other album Dopethrone, I w
 
 ## No Drum and Bass in the Jazz Room by Clever Girl (2010)
 
-![No Drum and Bass in the Jazz Room Cover Art](https://f4.bcbits.com/img/a1102744964_16.jpg)
+![No Drum and Bass in the Jazz Room Cover Art](https://i.ibb.co/F5pkDzw/no-drum.jpg)
 
 If you asked me which of all the Math Rock albums I've listened to is the best. I probably would answer this album. I don't know the exact reason but I think this album fits any mood and can be listened to anytime and anywhere. The only thing I don't like is that it's not long enough.
 
@@ -37,7 +37,7 @@ If you asked me which of all the Math Rock albums I've listened to is the best. 
 
 ## 0 by Ichiko Aoba (2013)
 
-![0 Cover Art](https://ichikoaoba.com/login/wp-content/uploads/2022/08/lp_0_rs.jpg)
+![0 Cover Art](https://i.ibb.co/MBm88Tv/image.jpg)
 
 A lot of people's reviews that I read said that this album is perfect for those who love nature. It's very different from what I feel which is more towards horror. I don't know why I feel that way after listening to some of the songs. I don't think I hate nature.
 
