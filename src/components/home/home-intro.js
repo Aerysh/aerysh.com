@@ -1,8 +1,8 @@
-import React from 'react'
-import Image from 'next/image'
-import Section from '../layout/section'
-import myLogo from '../../../public/logo.jpg'
-import Link from 'next/link'
+import React from "react";
+import Image from "next/image";
+import Section from "../layout/section";
+import myLogo from "../../../public/logo.jpg";
+import Link from "next/link";
 
 export default function HomeIntro() {
   return (
@@ -31,5 +31,5 @@ export default function HomeIntro() {
         </div>
       </div>
     </Section>
-  )
+  );
 }

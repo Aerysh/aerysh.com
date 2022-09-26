@@ -1,10 +1,11 @@
-import React from 'react'
-import { getAllPosts } from '../../lib/load-posts'
-import Layout from '../../components/layout/layout'
-import PostList from '../../components/posts/post-list'
-import Section from '../../components/layout/section'
-import Link from 'next/link'
-import MetaTags from '../../components/meta-tags'
+import React from "react";
+import { getAllPosts } from "../../lib/load-posts";
+import Layout from "../../components/layout/layout";
+import PostList from "../../components/posts/post-list";
+import Section from "../../components/layout/section";
+import Link from "next/link";
+import MetaTags from "../../components/meta-tags";
+import Navigation from "../../components/layout/navigation";
 
 export default function Post({ posts }) {
   return (
@@ -15,6 +16,7 @@ export default function Post({ posts }) {
         slug="posts"
       />
       <Layout>
+        <Navigation />
         <Section>
           <section>
             {posts.map((post, idx) => (
@@ -35,13 +37,13 @@ export default function Post({ posts }) {
         </Section>
       </Layout>
     </>
-  )
+  );
 }
 
 export async function getStaticProps() {
-  const posts = getAllPosts(['title', 'date', 'slug', 'author', 'excerpt'])
+  const posts = getAllPosts(["title", "date", "slug", "author", "excerpt"]);
 
   return {
-    props: { posts }
-  }
+    props: { posts },
+  };
 }

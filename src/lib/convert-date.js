@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react";
 
 export const convertDate = (date) => {
-  const intlDateFormat = new Date(date).toISOString().substring(0, 10)
+  const intlDateFormat = new Date(date).toISOString().substring(0, 10);
 
-  return intlDateFormat
-}
+  return intlDateFormat;
+};

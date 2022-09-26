@@ -7,7 +7,7 @@
 }
 
 .markdown ul,
-.markdown ol{
+.markdown ol {
   @apply my-3 list-inside ml-4;
 }
 
@@ -49,18 +49,19 @@
   margin-right: auto;
 }
 
-.markdown table{
+.markdown table {
   @apply w-full table-auto;
 }
 
-.markdown th, .markdown td {
+.markdown th,
+.markdown td {
   @apply border p-2;
 }
 
-.markdown blockquote{
+.markdown blockquote {
   @apply relative p-4 italic border-l-4 bg-ctp-mantle border-ctp-lavender;
 }
 
-.markdown pre{
+.markdown pre {
   @apply p-4 bg-ctp-mantle;
 }

@@ -1,6 +1,6 @@
-import Link from 'next/link'
-import React from 'react'
-import { convertDate } from '../../lib/convert-date'
+import Link from "next/link";
+import React from "react";
+import { convertDate } from "../../lib/convert-date";
 
 export default function PostList({ slug, date, title, excerpt }) {
   return (
@@ -15,5 +15,5 @@ export default function PostList({ slug, date, title, excerpt }) {
         </div>
       </a>
     </Link>
-  )
+  );
 }

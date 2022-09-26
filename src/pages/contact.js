@@ -1,8 +1,9 @@
-import React from 'react'
-import Link from 'next/link'
-import Layout from '../components/layout/layout'
-import Section from '../components/layout/section'
-import MetaTags from '../components/meta-tags'
+import React from "react";
+import Link from "next/link";
+import Layout from "../components/layout/layout";
+import Section from "../components/layout/section";
+import MetaTags from "../components/meta-tags";
+import Navigation from "../components/layout/navigation";
 
 export default function Contact() {
   return (
@@ -13,6 +14,7 @@ export default function Contact() {
         slug="contact"
       />
       <Layout>
+        <Navigation />
         <Section>
           <header className="space-y-2">
             <h2 className="text-2xl font-semibold">Contacts</h2>
@@ -26,7 +28,8 @@ export default function Contact() {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    className="text-ctp-rosewater hover:underline">
+                    className="text-ctp-rosewater hover:underline"
+                  >
                     GitHub
                   </a>
                 </Link>
@@ -36,7 +39,8 @@ export default function Contact() {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    className="text-ctp-rosewater hover:underline">
+                    className="text-ctp-rosewater hover:underline"
+                  >
                     GitLab
                   </a>
                 </Link>
@@ -46,7 +50,8 @@ export default function Contact() {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    className="text-ctp-rosewater hover:underline">
+                    className="text-ctp-rosewater hover:underline"
+                  >
                     Twitter
                   </a>
                 </Link>
@@ -56,7 +61,8 @@ export default function Contact() {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    className="text-ctp-rosewater hover:underline">
+                    className="text-ctp-rosewater hover:underline"
+                  >
                     Mastodon
                   </a>
                 </Link>
@@ -66,7 +72,8 @@ export default function Contact() {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    className="text-ctp-rosewater hover:underline">
+                    className="text-ctp-rosewater hover:underline"
+                  >
                     Matrix
                   </a>
                 </Link>
@@ -102,5 +109,5 @@ export default function Contact() {
         </Section>
       </Layout>
     </>
-  )
+  );
 }

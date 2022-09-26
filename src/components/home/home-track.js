@@ -1,5 +1,5 @@
-import React from 'react'
-import Section from '../layout/section'
+import React from "react";
+import Section from "../layout/section";
 
 export default function HomeTrack({ children }) {
   return (
@@ -10,9 +10,7 @@ export default function HomeTrack({ children }) {
           {`Recent songs I've been listening to`}
         </p>
       </header>
-      <section>
-        {children}
-      </section>
+      <section>{children}</section>
     </Section>
-  )
+  );
 }

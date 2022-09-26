@@ -1,13 +1,13 @@
-import React from 'react'
-import Link from 'next/link'
+import React from "react";
+import Link from "next/link";
 
 export default function RecentPost({ date, title, excerpt, slug }) {
-  const intlDateFormat = new Date(date).toISOString().substring(0, 10)
+  const intlDateFormat = new Date(date).toISOString().substring(0, 10);
 
   return (
     <Link href={`/posts/${slug}`}>
       <a className="flex flex-col h-entry relative">
-        <div className="h-full p-4 w-full border-2 border-ctp-lavender rounded-xl overflow-hidden bg-ctp-mantle hover:bg-ctp-crust active:bg-ctp-crust">
+        <div className="h-full p-4 w-full rounded-xl overflow-hidden bg-ctp-mantle hover:shadow-xl">
           <article className="flex flex-col h-full w-full p-2 space-y-2">
             <time className="text-xs lg:text-sm text-ctp-subtext-0">
               {intlDateFormat}
@@ -18,5 +18,5 @@ export default function RecentPost({ date, title, excerpt, slug }) {
         </div>
       </a>
     </Link>
-  )
+  );
 }

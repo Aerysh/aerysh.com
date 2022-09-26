@@ -1,5 +1,5 @@
-import Head from 'next/head'
-import React from 'react'
+import Head from "next/head";
+import React from "react";
 
 export default function MetaTags({ title, description, slug }) {
   return (
@@ -17,5 +17,5 @@ export default function MetaTags({ title, description, slug }) {
       <meta property="og:image" content="https://www.aerysh.com/logo.jpg" />
       <meta property="og:description" content={`${description}`} />
     </Head>
-  )
+  );
 }

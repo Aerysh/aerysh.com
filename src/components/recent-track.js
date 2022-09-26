@@ -1,6 +1,6 @@
-import Link from 'next/link'
-import Image from 'next/image'
-import React from 'react'
+import Link from "next/link";
+import Image from "next/image";
+import React from "react";
 
 export default function RecentTrack({ artist, image, album, name, url }) {
   return (
@@ -8,7 +8,8 @@ export default function RecentTrack({ artist, image, album, name, url }) {
       <a
         target="_blank"
         rel="noreferrer"
-        className="flex flex-col items-center justify-center h-entry relative">
+        className="flex flex-col items-center justify-center h-entry relative"
+      >
         <table>
           <tbody>
             <tr>
@@ -30,5 +31,5 @@ export default function RecentTrack({ artist, image, album, name, url }) {
         </table>
       </a>
     </Link>
-  )
+  );
 }

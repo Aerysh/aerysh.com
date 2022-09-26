@@ -1,6 +1,6 @@
-import Link from 'next/link'
-import React from 'react'
-import MetaTags from '../components/meta-tags'
+import Link from "next/link";
+import React from "react";
+import MetaTags from "../components/meta-tags";
 
 export default function ErrorPage() {
   return (
@@ -18,5 +18,5 @@ export default function ErrorPage() {
         </Link>
       </div>
     </>
-  )
+  );
 }

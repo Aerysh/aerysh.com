@@ -1,6 +1,6 @@
-import React from 'react'
-import Link from 'next/link'
-import Section from '../layout/section'
+import React from "react";
+import Link from "next/link";
+import Section from "../layout/section";
 
 export default function HomePost({ children }) {
   return (
@@ -20,5 +20,5 @@ export default function HomePost({ children }) {
         </Link>
       </footer>
     </Section>
-  )
+  );
 }
