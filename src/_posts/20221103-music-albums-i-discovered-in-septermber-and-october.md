@@ -1,8 +1,8 @@
 ---
-title: 'Music Albums I Discovered in August'
+title: 'Music Albums I Discovered in September & October'
 date: '2022-11-03'
 author: 'aerysh'
-excerpt: 'I'm Late But Here We Go Again'
+excerpt: 'Been Feeling Unwell But Here We Go Again'
 ---
 
 I don't know if I should apologize or not for my late posts because I myself don't know if anyone reads this blog of mine.
